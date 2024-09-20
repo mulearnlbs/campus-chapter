@@ -1,44 +1,53 @@
 {
-    "collegeCode": "SNT",
+    "collegeCode": "LBT",
 
-    "college": "Sree Narayana Guru Institute of Science and Technology",
+    "college": "LBS INSTITUITE OF TECHNOLOGY FOR WOMEN",
 
-    "about": "Lorem ipsum dolor sit amet consectetur adipiscing, elit ultricies imperdiet neque mattis, orci pellentesque turpis facilisi leo. Laoreet donec tortor sagittis habitasse eleifend conubia quis lacinia accumsan auctor, montes morbi natoque convallis integer aliquam posuere eu nulla, proin fames dapibus mattis sociis ligula blandit quam potenti. Himenaeos fringilla tincidunt aptent porta ultrices velit dignissim senectus purus suspendisse, fames eleifend feugiat nam hac montes semper pretium potenti, viverra curae netus volutpat cras per eu cubilia primis.",
+    "about": "LBS INSTITUITE OF TECHNOLOGY FOR WOMEN, is the only engineering college for women in the government sector in the state of Kerala.The instituite offers Btech programs in
+	Electronics and Communication Engineering,Electronics and Computer Engineering,Applied Electronics and Instrumentation,Computer Science and Engineering,Information Technology and
+	Civil Engineering and Mtech programs.";
 
     "events": [
         {
-            "month": "Sep",
-            "date": "29",
-            "head": "Event 1",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "month": "Jul",
+            "date": "9",
+            "head": "Tune into Inspiration Station Radio-Aswathy Mahendran",
+            "para": "Aswathy Mahendran,senior Product Support,Tech Advisor at IQVIA shared her experience and insights about ISR.",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         },
         {
-            "month": "Sep",
-            "date": "27",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "month": "Jul",
+            "date": "18",
+            "head": "Tune into Inspiration Station Radio-Reethu Nair",
+            "para": "Reethu Nair,Content Strategy Manager at AUFAIT UX shared her experience and insights about ISR.",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         },
         {
-            "month": "Sep",
-            "date": "26",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "month": "Jul",
+            "date": "20",
+            "head": "Insights from Industry Experts-Guidance to getting into AMAZON",
+            "para": "Anjana PJ,Cloud Support engineer at Amazon Web Services  who shared her ideas for getting into Amazon.",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         },
         {
-            "month": "Sep",
+            "month": "Jul",
+            "date": "21",
+            "head": "Insights from Industry Experts-Guidance to getting into VISTEON",
+            "para": "Sreelekshmi BS,Software Engineer at Visteon shared her insights about getting into Visteon.",
+            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+        },
+        {
+            "month": "Jul",
             "date": "25",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "head": "Orientation Session by Joel Basil Kurian",
+            "para": "Joel Basil Kurian,Campus activation intern at GTECH MULEARN,  guided us through an interactive and engaging session to help us navigate our platform .",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         },
-        {
-            "month": "Sep",
+	{
+            "month": "Jul",
             "date": "25",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "head": "IOT Workshop- by Muhammed R",
+            "para": "Hands-on workshop on IOT lead by Muhammed R,associate at Mulearn.",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         }
     ],
@@ -75,15 +84,15 @@
 
     "team": {
         "staffAdvisor": {
-            "name": "Enric S Neelamkavil",
+            "name": "Gisha GS",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "campusLead": {
-            "name": "Elon Musk",
+            "name": "Alfina S",
             "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1"
         },
         "campusCoLead": {
-            "name": "Enric S Neelamkavil",
+            "name": "Arathi Krishna AM",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "treasurer": {
@@ -91,15 +100,15 @@
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "technicalLead": {
-            "name": "Enric S Neelamkavil",
+            "name": "S Sreelakshmi",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "mediaLead": {
-            "name": "Enric S Neelamkavil",
+            "name": "Lekshmi Ram S",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "contentLead": {
-            "name": "Enric S Neelamkavil",
+            "name": "S P Gayathri",
             "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
         },
         "operationLead": {
@@ -112,11 +121,11 @@
 
     "whatsAppLink": "",
 
-    "email": "mulearn@cce.edu.in",
+    "email": "mulearnlbs@gmail.com",
 
-    "linkedIn": "",
+    "linkedIn": "https://www.linkedin.com/in/mulearn-lbsitw123?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 
-    "instagram": "",
+    "instagram": "https://www.instagram.com/mulearnlbs?igsh=MXN4cGpoaGxhNTE1YQ==",
 
     "twitter": "",
 
