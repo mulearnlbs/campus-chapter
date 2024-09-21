@@ -1,5 +1,5 @@
 .gallery {
-    padding-top: 105rem;
+    padding-top: 3rem;
 }
 
 .gallery h2 {
@@ -7,7 +7,7 @@
     font-size: 35px;
     text-align: center;
     gap: 105px;
-    padding: 10vh 5%;
+    padding: 20vh 5%;
 }
 
 .row {
