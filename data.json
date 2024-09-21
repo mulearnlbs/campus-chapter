@@ -13,42 +13,49 @@
             "date": "9",
             "head": "Tune into Inspiration Station Radio-Aswathy Mahendran",
             "para": "Aswathy Mahendran,senior Product Support,Tech Advisor at IQVIA shared her experience and insights about ISR.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+            "img": "C:\Users\user\OneDrive\Pictures\MULEARN\1.jpg"
         },
         {
             "month": "Jul",
             "date": "18",
             "head": "Tune into Inspiration Station Radio-Reethu Nair",
             "para": "Reethu Nair,Content Strategy Manager at AUFAIT UX shared her experience and insights about ISR.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+            "img": "C:\Users\user\OneDrive\Pictures\MULEARN\2.jpg"
         },
         {
             "month": "Jul",
             "date": "20",
             "head": "Insights from Industry Experts-Guidance to getting into AMAZON",
             "para": "Anjana PJ,Cloud Support engineer at Amazon Web Services  who shared her ideas for getting into Amazon.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+            "img": "C:\Users\user\OneDrive\Pictures\MULEARN\3.jpg"
         },
         {
             "month": "Jul",
             "date": "21",
             "head": "Insights from Industry Experts-Guidance to getting into VISTEON",
             "para": "Sreelekshmi BS,Software Engineer at Visteon shared her insights about getting into Visteon.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+            "img": "C:\Users\user\OneDrive\Pictures\MULEARN\4.jpg"
         },
         {
             "month": "Jul",
             "date": "25",
             "head": "Orientation Session by Joel Basil Kurian",
             "para": "Joel Basil Kurian,Campus activation intern at GTECH MULEARN,  guided us through an interactive and engaging session to help us navigate our platform .",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+            "img": "C:\Users\user\OneDrive\Pictures\MULEARN\5.jpg"
         },
 	{
             "month": "Jul",
             "date": "25",
             "head": "IOT Workshop- by Muhammed R",
             "para": "Hands-on workshop on IOT lead by Muhammed R,associate at Mulearn.",
-            "img": "https://wallpaperaccess.com/full/1642272.jpg"
+            "img": ""C:\Users\user\OneDrive\Pictures\MULEARN\6.jpg""
+        },
+	{
+            "month": "aUG",
+            "date": "21",
+            "head": "AR/VR Workshop- by Fahad P N",
+            "para": "Hands-on workshop on AR/VR lead by Fahad P N, Chief Technology Officer and Co-Founder of SoftServedWeb.",
+            "img": "C:\Users\user\OneDrive\Pictures\MULEARN\7.jpg"
         }
     ],
 
@@ -76,8 +83,8 @@
 
     "statistics": {
         "studentsCount": 30,
-        "learningCircles": 10,
-        "InterestGroups": 5,
+        "learningCircles": 4,
+        "InterestGroups": 4,
         "karmaEarned": 60,
         "rank": 28
     },
