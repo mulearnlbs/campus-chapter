@@ -19,8 +19,8 @@
   color: rgb(66, 66, 66);
   text-align: left;
   font-size: 1.2rem;
-   gap: 105px;
-  padding: 10vh 5%;
+   gap: 55px;
+  padding: 5vh 5%;
 }
 
 @media screen and (max-width: 900px) {
