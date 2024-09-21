@@ -6,7 +6,8 @@
     color: #ae59ff;
     font-size: 35px;
     text-align: center;
-    padding: 10rem;
+    gap: 85px;
+    padding: 7vh 5%;
 }
 
 .row {
