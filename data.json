@@ -83,14 +83,29 @@
     "gallery": {
         "row1": [
             {
-                "image": "https://mulearn.org/assets/home/illustration.webp"
+                "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g1.jpg?raw=true"
             },
             {
-                "image": "https://mulearn.org/assets/home/Chart.webp"
+                "image":"https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom1.jpg?raw=true"
             },
-			{
-				"image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
-			}
+	    {
+		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom2.jpg?raw=true"
+	    },
+	    {
+		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom3.jpg?raw=true"
+	   },
+		 {
+		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom4.jpg?raw=true"
+	   },
+		 {
+		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom5.jpg?raw=true"
+	   },
+	   {
+		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom6.jpg?raw=true"
+	   },
+	   {
+		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom7.jpg?raw=true"
+	   },
         ],
         "row2": [
             {
