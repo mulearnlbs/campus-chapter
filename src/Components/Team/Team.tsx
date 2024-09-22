@@ -79,7 +79,7 @@ const Team = () => {
                                 {data.team.treasurer.name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Treasurer
+                                Technical lead
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ const Team = () => {
                                 {data.team.technicalLead.name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Technical Lead
+                                Media Lead
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ const Team = () => {
                                 {data.team.mediaLead.name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Media Lead
+                                Content Lead
                             </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@ const Team = () => {
                                 {data.team.contentLead.name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Content Lead
+                                Design Lead
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,33 @@ const Team = () => {
                                 {data.team.operationLead.name}
                             </div>
                             <div className={styles.teamMemberDesignation}>
-                                Operation Lead
+                                Media Sub-lead
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.teamNameDesignation}>
+                            <div className={styles.teamMemberName}>
+                                {data.team.mediaLead.name}
+                            </div>
+                            <div className={styles.teamMemberDesignation}>
+                                Content Lead
+                            </div>
+                        </div>
+                    </div>
+                    <div className={`${styles.team} ${styles.team7}`}>
+                        <div className={styles.team1Img}>
+                            <img
+                                className={styles.teamImageIndividual}
+                                src={data.team.contentLead.image}
+                                loading="lazy"
+                            />
+                        </div>
+                        <div className={styles.teamNameDesignation}>
+                            <div className={styles.teamMemberName}>
+                                {data.team.contentLead.name}
+                            </div>
+                            <div className={styles.teamMemberDesignation}>
+                                Technical sub-lead
                             </div>
                         </div>
                     </div>
