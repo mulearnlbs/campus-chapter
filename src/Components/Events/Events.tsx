@@ -9,15 +9,15 @@ const Events = () => {
         <div className={styles.card + " " + styles.small}>
           <div className={styles.content}>
             <div className={styles.date}>
-              <span>{data["events"][0].month}</span>
-              <span>{data["events"][0].date}</span>
+              <span>{data["events"][1].month}</span>
+              <span>{data["events"][1].date}</span>
             </div>
             <div className={styles.text}>
-              <strong>{data["events"][0].head}</strong>
-              <span>{data["events"][0].para}</span>
+              <strong>{data["events"][1].head}</strong>
+              <span>{data["events"][1].para}</span>
             </div>
           </div>
-          <img src={data["events"][0].img} alt="" />
+          <img src={data["events"][1].img} alt="" />
         </div>
      
        
