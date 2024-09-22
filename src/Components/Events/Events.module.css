@@ -1,7 +1,7 @@
 .events {
   max-height: 700px;
   width: 100%;
-  padding: 3rem 2rem;
+  padding: 0rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@
 .events h2 {
   text-align: center;
   align-self: center;
-  padding: 5vh 10%;
+  padding: 10vh 10%;
   gap: 3rem;
   color: #ae59ff;
   font-size: 2rem;
@@ -22,7 +22,7 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding:5vh 5%;
+  padding: 5vh 5%;
   gap: 3rem;
   height: 100%;
 }
