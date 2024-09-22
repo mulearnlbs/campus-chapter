@@ -56,6 +56,27 @@
             "head": "AR/VR Workshop- by Fahad P N",
             "para": "Hands-on workshop on AR/VR lead by Fahad P N, Chief Technology Officer and Co-Founder of SoftServedWeb.",
             "img": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/7.jpg?raw=true"
+        },
+	{
+            "month": "Sep",
+            "date": "20",
+            "head": "Murder Mystery",
+            "para": "Immersive game of intrigue,deception and excitment!!  Unravel the mystery",
+            "img": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/8.jpg?raw=true"
+        },
+	{
+            "month": "Sep",
+            "date": "28",
+            "head": "Panel Discussion by Deepa Nair-Senior Manager HR 6D Technologies,Arun TM-Head HR Carestack,Judlin Bernan-HR Generalist Faya",
+            "para": "Gain valuable insights into job markets,interview techniques and resume building from experienced HR professionals",
+            "img": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/9.jpg?raw=true"
+        },
+	{
+            "month": "Sep",
+            "date": "29",
+            "head": "Blockchain Workshop by Abhinav CV",
+            "para": "Hands-on workshop on Blockchain lead by Abhinav CV ,SWI Intern at WAGMI,Dubai,UAE.",
+            "img": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/10.jpg?raw=true"
         }
     ],
 
