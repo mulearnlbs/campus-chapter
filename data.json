@@ -94,10 +94,10 @@
 	    {
 		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom3.jpg?raw=true"
 	   },
-		 {
+	   {
 		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom4.jpg?raw=true"
 	   },
-		 {
+	   {
 		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom5.jpg?raw=true"
 	   },
 	   {
@@ -105,7 +105,7 @@
 	   },
 	   {
 		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom7.jpg?raw=true"
-	   },
+	   }
         ],
         "row2": [
             {
