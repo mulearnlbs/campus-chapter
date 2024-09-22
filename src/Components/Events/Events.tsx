@@ -8,7 +8,7 @@ const Events = () => {
       
      
         <div className={styles.subContent}>
-          {data.events.slice(0).map((event, index) => {
+          {data.events.slice(1).map((event, index) => {
             return (
               <div className={styles.card + " " + styles.small} key={index}>
                 <div className={styles.content}>
