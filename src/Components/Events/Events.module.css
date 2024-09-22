@@ -34,7 +34,8 @@
   box-shadow: 0px 0px 24.0251px 0px rgba(0, 0, 0, 0.1);
   padding: 10px 10px;
   margin-bottom: .5rem;
-  
+  flex: 1; 
+   max-width: 45%;
 }
 
 .card .content {
