@@ -105,6 +105,9 @@
 	   },
 	   {
 		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom7.jpg?raw=true"
+	   },
+	   {
+		"image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom8.jpg?raw=true"
 	   }
         ],
         "row2": [
@@ -128,41 +131,46 @@
     "team": {
         "staffAdvisor": {
             "name": "Gisha GS",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g2.jpg?raw=true"
         },
         "campusLead": {
             "name": "Alfina S",
-            "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1"
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g3.jpg?raw=true"
         },
         "campusCoLead": {
             "name": "Arathi Krishna AM",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
-        },
-        "treasurer": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g4.jpg?raw=true"
         },
         "technicalLead": {
             "name": "S Sreelakshmi",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g9.jpg?raw=true"
         },
         "mediaLead": {
             "name": "Lekshmi Ram S",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g7.jpg?raw=true"
         },
         "contentLead": {
             "name": "S P Gayathri",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g6.jpg?raw=true"
         },
-        "operationLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+	"designLead": {
+            "name": "Khadeeja Thaneesha V",
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g5.jpg?raw=true"
+        },
+	"mediasubLead": {
+            "name": "Afra B",
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g8.jpg?raw=true"
+        },
+	"technicalsubLead": {
+            "name": "Shahana KV",
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g10.jpg?raw=true"
         }
+        
     },
 
     "discordLink": "",
 
-    "whatsAppLink": "",
+    "whatsAppLink": "https://whatsapp.com/channel/0029VadWtbwEAKWHQHm1Xr0a",
 
     "email": "mulearnlbs@gmail.com",
 
