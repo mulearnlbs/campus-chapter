@@ -19,6 +19,7 @@ const Events = () => {
           </div>
           <img src={data["events"][0].img} alt="" />
         </div>
+        </div>
        <div className={styles.subContent}>
           {data.events.slice(1).map((event, index) => {
             return (
@@ -37,7 +38,7 @@ const Events = () => {
               </div>
             );
           })}
-        </div>
+        
        
       </div>
     </div>
