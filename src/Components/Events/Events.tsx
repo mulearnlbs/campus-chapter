@@ -6,7 +6,7 @@ const Events = () => {
     <div className={styles.events}>
       <h2>Our Event Journey</h2>
       <div className={styles.innerDiv}>
-        <div className={styles.card + " " + styles.large}>
+        <div className={styles.card + " " + styles.small}>
           <div className={styles.content}>
             <div className={styles.date}>
               <span>{data["events"][0].month}</span>
