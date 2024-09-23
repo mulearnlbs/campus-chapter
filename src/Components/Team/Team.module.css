@@ -162,11 +162,32 @@
     left: 77%;
 }
 .team9 {
-    margin-top: 360px;
-
-    top: 100%;
-    left: 77%;
+    margin-top: -30px;
+    top: 0;
+    left: 5%;
 }
+
+.team10 {
+    margin-top: -50px;
+
+    top: 0;
+    left: 28%;
+}
+
+.team11 {
+    margin-top: -60px;
+
+    top: 0;
+    left: 50%;
+}
+
+.team12 {
+    margin-top: -10px;
+
+    top: 0;
+    left: 74%;
+}
+
 
 @media screen and (max-width: 1650px) {
     .teamBodyWrapper {
