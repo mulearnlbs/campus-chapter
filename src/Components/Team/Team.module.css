@@ -32,7 +32,8 @@
 }
 
 .teamBgLineWrapper> :nth-child(3),
-.teamBgLineWrapper> :nth-child(4) {
+.teamBgLineWrapper> :nth-child(4)
+.teamBgLineWrapper> :nth-child(3){
     display: none;
 }
 
