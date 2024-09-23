@@ -164,7 +164,19 @@
 	"technicalsubLead": {
             "name": "Shahana KV",
             "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g10.jpg?raw=true"
-        }
+        },
+	"operationwing": {
+            "name": "Syama,Arsha D Asok,Sangeetha,Remitha,Aksa",
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom8.jpg?raw=true"
+        },
+	"designandcontetteam": {
+            "name": "Mayookha B,S Hashimi Rayhaan,Lekshmi S Aji,Nandana S D,Arsha Suresh",
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom7.jpg?raw=true"
+        },
+	"onboardingwing": {
+            "name": "Adithya,Gopika,Adithya Hemand,Grace",
+            "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom4.jpg?raw=true"
+        },
         
     },
 
