@@ -169,6 +169,60 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
+                      <div className={styles.teamMembersDetailsWrapper}>
+                    <div className={`${styles.team} ${styles.team1}`}>
+                        <div className={styles.team1Img}>
+                            <img
+                                className={styles.teamImageIndividual}
+                                src={data.team.opeartionwing.image}
+                                loading="lazy"
+                            />
+                        </div>
+                        <div className={styles.teamNameDesignation}>
+                            <div className={styles.teamMemberName}>
+                                {data.team.operationwing.name}
+                            </div>
+                            <div className={styles.teamMemberDesignation}>
+                                Operation Wing
+                            </div>
+                        </div>
+                    </div>
+                      <div className={styles.teamMembersDetailsWrapper}>
+                    <div className={`${styles.team} ${styles.team1}`}>
+                        <div className={styles.team1Img}>
+                            <img
+                                className={styles.teamImageIndividual}
+                                src={data.team.designandcontentteam.image}
+                                loading="lazy"
+                            />
+                        </div>
+                        <div className={styles.teamNameDesignation}>
+                            <div className={styles.teamMemberName}>
+                                {data.team.designandcontentteam.name}
+                            </div>
+                            <div className={styles.teamMemberDesignation}>
+                                Design and Content Team
+                            </div>
+                        </div>
+                    </div>
+                      <div className={styles.teamMembersDetailsWrapper}>
+                    <div className={`${styles.team} ${styles.team1}`}>
+                        <div className={styles.team1Img}>
+                            <img
+                                className={styles.teamImageIndividual}
+                                src={data.team.onboardingwing.image}
+                                loading="lazy"
+                            />
+                        </div>
+                        <div className={styles.teamNameDesignation}>
+                            <div className={styles.teamMemberName}>
+                                {data.team.onboardingwing.name}
+                            </div>
+                            <div className={styles.teamMemberDesignation}>
+                                Onboarding Wing
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
