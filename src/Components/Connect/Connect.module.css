@@ -1,195 +1,168 @@
 .ConnectWrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 0vh 10vw 5vh;
-  gap: 25px;
+  flex-direction: column; /* Column layout */
+  align-items: center; /* Center align items */
+  width: 100%; /* Full width */
+  padding: 0vh 10vw 5vh; /* Top, horizontal, bottom padding */
+  gap: 30px; /* Slightly increased gap for better spacing */
 }
 
 .contentWrapper {
-  display: flex;
-  width: 100%;
-  border: 2px solid #ae59ff;
-  border-radius: 10px;
-  height: 350px;
+  display: flex; /* Flex container */
+  width: 100%; /* Full width */
+  border: 2px solid #ae59ff; /* Border color */
+  border-radius: 10px; /* Rounded corners */
+  height: 350px; /* Default height */
 }
 
 .ConnectWrapper h1 {
-  color: #ae59ff;
-  font-size: 35px;
+  color: #ae59ff; /* Header color */
+  font-size: 35px; /* Header font size */
 }
 
 .innerContent {
-  padding: 7% 8%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  padding: 5% 8%; /* Padding around inner content */
+  width: 100%; /* Full width */
+  display: flex; /* Flex container */
+  flex-direction: column; /* Column layout */
+  justify-content: space-between; /* Space between items */
 }
 
 .innerContent h2 {
-  font-size: 32px;
+  font-size: 30px; /* Default size for h2 */
 }
 
 .innerContent p {
-  font-size: 25px;
-  color: #757575;
-  margin: .5rem 0;
+  font-size: 22px; /* Default font size for paragraphs */
+  color: #757575; /* Paragraph color */
+  margin: 0.5rem 0; /* Margin for spacing */
 }
 
 .socialMedia {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  display: flex; /* Flex container */
+  align-items: center; /* Center align items */
+  gap: 20px; /* Space between social media links */
 }
 
 .socialMedia a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  width: fit-content;
-  padding: 8px 20px;
-  border-radius: 8px;
-  border: 2px solid #ae59ff;
-  font-size: 18px;
+  display: flex; /* Flex container */
+  align-items: center; /* Center align items */
+  justify-content: center; /* Center content */
+  gap: 8px; /* Space between icon and text */
+  width: fit-content; /* Fit content */
+  padding: 8px 20px; /* Padding around links */
+  border-radius: 8px; /* Rounded corners */
+  border: 2px solid #ae59ff; /* Border color */
+  font-size: 18px; /* Default font size for links */
 }
 
 .discord {
-  background-color: #ae59ff;
-  color: white;
+  background-color: #ae59ff; /* Background color for Discord */
+  color: white; /* Text color for Discord */
 }
 
 .Whatsapp {
-  color: #ae59ff;
+  color: #ae59ff; /* Text color for WhatsApp */
 }
 
 .contentWrapper img {
-  height: 100%;
+  height: 100%; /* Image height */
+  object-fit: cover; /* Maintain aspect ratio */
 }
 
-@media screen and (max-width: 1250px) {
+/* Styles for laptops (900px - 1200px) */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
   .ConnectWrapper {
-    padding: 0vh 8vw 5vh;
+      padding: 0vh 8vw 5vh; /* Adjust padding for laptops */
+      gap: 30px; /* Increase gap for better spacing */
   }
 
   .contentWrapper {
-    height: 300px;
+      height: 350px; /* Maintain height for laptops */
   }
 
   .innerContent {
-    padding: 7% 6%;
+      padding: 5% 8%; /* Maintain padding */
   }
 
   .innerContent h2 {
-    font-size: 28px;
+      font-size: 30px; /* Maintain h2 size */
   }
 
   .innerContent p {
-    font-size: 20px;
+      font-size: 22px; /* Maintain paragraph size */
   }
 }
 
 @media screen and (max-width: 950px) {
   .ConnectWrapper {
-    padding: 0vh 7vw 5vh;
+      padding: 0vh 7vw 5vh; /* Adjust padding for smaller laptops */
   }
 
   .contentWrapper {
-    height: 250px;
+      height: 300px; /* Reduce height */
   }
 
   .innerContent {
-    padding: 7% 4%;
+      padding: 5% 4%; /* Reduce padding */
   }
 
   .innerContent h2 {
-    font-size: 25px;
+      font-size: 25px; /* Reduce h2 size */
   }
 
   .innerContent p {
-    font-size: 16px;
+      font-size: 18px; /* Reduce paragraph size */
   }
 
   .socialMedia a {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 820px) {
-  .ConnectWrapper {
-    padding: 0vh 6vw 5vh;
-  }
-
-  .innerContent h2 {
-    font-size: 24px;
-  }
-
-  .socialMedia {
-    gap: 10px;
-  }
-
-  .socialMedia a {
-    font-size: 15px;
-    padding: 6px 12px;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .innerContent {
-    padding: 7% 3%;
-  }
-
-  .socialMedia a {
-    font-size: 14px;
-    padding: 6px 10px;
+      font-size: 16px; /* Reduce link size */
   }
 }
 
 @media screen and (max-width: 700px) {
   .contentWrapper {
-    flex-direction: column;
-    height: fit-content;
-    align-items: center;
-    width: 100%;
+      flex-direction: column; /* Stack items vertically */
+      height: fit-content; /* Adjust height */
+      align-items: center; /* Center items */
+      width: 100%; /* Full width */
   }
 
   .innerContent {
-    align-items: center;
-    text-align: center;
-    padding: 5%;
-    gap: 20px;
+      align-items: center; /* Center align items */
+      text-align: center; /* Center text */
+      padding: 5%; /* Padding adjustments */
+      gap: 20px; /* Gap between items */
   }
 
   .contentWrapper img {
-    height: auto;
-    width: 100%;
+      height: auto; /* Maintain aspect ratio */
+      width: 100%; /* Full width */
   }
 
   .socialMedia {
-    flex-wrap: wrap;
-    justify-content: center;
+      flex-wrap: wrap; /* Allow wrapping */
+      justify-content: center; /* Center items */
   }
 
   .innerContent p {
-    font-size: 14px;
-    margin: 0;
-    margin-top: .3rem;
+      font-size: 14px; /* Reduce paragraph size */
+      margin: 0; /* Reset margin */
+      margin-top: .3rem; /* Add top margin */
   }
 }
 
 @media screen and (max-width: 379px) {
   .ConnectWrapper h1 {
-    font-size: 30px;
+      font-size: 30px; /* Reduce h1 size for small screens */
   }
 
   .socialMedia a {
-    font-size: 16px;
-    width: 180px;
+      font-size: 16px; /* Adjust link font size */
+      width: 180px; /* Fixed width for links */
   }
 
   .innerContent p {
-    font-size: 12px;
+      font-size: 12px; /* Reduce paragraph size */
   }
 }
