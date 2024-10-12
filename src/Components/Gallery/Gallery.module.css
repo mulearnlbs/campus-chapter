@@ -4,46 +4,66 @@
 
 .gallery h2 {
     color: #ae59ff;
-    font-size: 35px;
-    text-align: center;
-    gap: 55px;
-    padding: 10vh 5%;
+    font-size: 35px; /* Header size */
+    text-align: center; /* Centered text */
+    padding: 5vh 5%; /* Vertical padding adjusted for better spacing */
+    margin: 0; /* Reset margin for consistent spacing */
 }
 
 .row {
     position: relative;
+    display: flex; /* Use Flexbox for better layout */
+    flex-wrap: wrap; /* Wrap items to the next line */
+    justify-content: center; /* Center align items */
+    gap: 20px; /* Spacing between image containers */
 }
 
 .imgContainer {
     padding: 0.5rem;
-    height: 325px;
-    width: 450px;
+    height: 325px; /* Default height */
+    width: 450px; /* Default width */
+    display: flex; /* Use Flexbox for centering */
+    align-items: center; /* Center images vertically */
+    justify-content: center; /* Center images horizontally */
 }
 
 .gallery img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 20px;
+    height: 100%; /* Full height of the container */
+    width: 100%; /* Full width of the container */
+    object-fit: cover; /* Cover the entire container */
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* Laptop screens (900px - 1200px) */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .imgContainer {
+        height: 300px; /* Adjust height for laptops */
+        width: 400px; /* Adjust width for laptops */
+    }
+
+    .gallery h2 {
+        font-size: 28px; /* Slightly reduce the header size for laptops */
+        padding: 5vh 5%; /* Adjust padding for better spacing on laptops */
+    }
 }
 
 @media screen and (max-width: 768px) {
     .imgContainer {
-        height: 250px;
-        width: 350px;
+        height: 250px; /* Height for smaller screens */
+        width: 350px; /* Width for smaller screens */
     }
 }
 
 @media screen and (max-width: 500px) {
     .imgContainer {
-        height: 200px;
-        width: 300px;
+        height: 200px; /* Height for mobile screens */
+        width: 300px; /* Width for mobile screens */
     }
 }
 
 @media screen and (max-width: 400px) {
     .imgContainer {
-        height: 150px;
-        width: 250px;
+        height: 150px; /* Height for very small screens */
+        width: 250px; /* Width for very small screens */
     }
 }
