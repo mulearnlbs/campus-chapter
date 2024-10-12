@@ -2,8 +2,8 @@
 
 * {
   scroll-behavior: smooth;
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Plus Jakarta Sans";
 }
@@ -25,4 +25,40 @@ a {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+/* Media Queries */
+
+/* For laptop screens (900px - 1200px) */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .appWrapper {
+    flex-direction: row; /* Change layout to row for laptops */
+    justify-content: space-around; /* Distribute items evenly */
+  }
+
+  h1 {
+    font-size: 2.5rem; /* Adjust font size for headings */
+  }
+
+  p {
+    font-size: 1.2rem; /* Adjust font size for paragraphs */
+    padding: 1rem; /* Add padding for better spacing */
+  }
+}
+
+/* For smaller screens (less than 900px) */
+@media screen and (max-width: 900px) {
+  .appWrapper {
+    flex-direction: column; /* Ensure the column layout for mobile */
+    padding: 1rem; /* Add padding for mobile */
+  }
+
+  h1 {
+    font-size: 2rem; /* Adjust font size for headings */
+  }
+
+  p {
+    font-size: 1rem; /* Adjust font size for paragraphs */
+    padding: 0.5rem; /* Add padding for better spacing */
+  }
 }
