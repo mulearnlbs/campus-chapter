@@ -70,7 +70,7 @@
 .contentWrapper img {
   max-width: 80%; /* Limits the width to 80% of the container */
   height: auto; /* Maintain the aspect ratio */
-  object-fit: cover; /* Ensures the image covers the container while keeping the aspect ratio */
+  /*object-fit: cover;  Ensures the image covers the container while keeping the aspect ratio */
   border-radius: 10px; /* Optional: Gives the image a rounded corner */
 }
 
