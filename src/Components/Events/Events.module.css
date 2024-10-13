@@ -1,170 +1,196 @@
-/* Connect Section */
-.ConnectWrapper {
+.events {
+  max-height: 700px;
+  width: 100%;
+  padding: 0rem 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 0vh 10vw 5vh; /* Top, horizontal, bottom padding */
-  gap: 30px; /* Space between items */
+  justify-content: center;
+  gap: 1rem;
 }
 
-.contentWrapper {
-  display: flex;
-  width: 100%;
-  border: 2px solid #ae59ff;
-  border-radius: 10px;
-  height: 350px;
-}
+.events h2 {
+  text-align: center;
+  align-self: center;
 
-.ConnectWrapper h1 {
   color: #ae59ff;
-  font-size: 35px;
-  margin-bottom: 15px; /* Space below heading */
+  font-size: 2rem;
 }
 
-.innerContent {
-  padding: 5% 8%;
+.innerDiv {
+  display: flex;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.innerContent h2 {
-  font-size: 30px;
-}
-
-.innerContent p {
-  font-size: 22px;
-  color: #757575;
-  margin: 0.5rem 0;
-}
-
-.socialMedia {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.socialMedia a {
-  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  width: fit-content;
-  padding: 8px 20px;
-  border-radius: 8px;
-  border: 2px solid #ae59ff;
+  gap: 20px;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 24.0251px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px;
+  margin-bottom: .5rem;
+}
+
+.card .content {
+  display: flex;
+  align-items: center;
+}
+
+.card .date,
+.card .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.card .date {
+  font-size: 28px;
+  border-right: #d6abfe 5px solid;
+  text-transform: uppercase;
+}
+
+.card .text {
   font-size: 18px;
 }
 
-.discord {
-  background-color: #ae59ff;
-  color: white;
+.card img {
+  height: 110px;
+  border-radius: 10px;
 }
 
-.Whatsapp {
-  color: #ae59ff;
+.card.large {
+  max-width: 500px;
+  width: 50%;
+  border-radius: 1rem;
+  flex-wrap: wrap-reverse;
+  gap: 1rem;
+  justify-content: space-evenly;
 }
 
-.contentWrapper img {
-  max-width: 100%; /* Limits the width to 80% of the container */
-  height: auto; /* Maintain the aspect ratio */
-  object-fit: cover; /* Ensures the image covers the container while keeping the aspect ratio */
-  border-radius: 10px; /* Optional: Gives the image a rounded corner */
+.card.large img {
+  /* height: 400px; */
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: contain;
 }
 
-/* Responsive design for laptops (900px - 1200px) */
-@media screen and (min-width: 900px) and (max-width: 1200px) {
-  .ConnectWrapper {
-      padding: 0vh 8vw 5vh; /* Adjust padding */
-  }
-
-  .contentWrapper {
-      height: 350px;
-  }
-
-  .innerContent h2 {
-      font-size: 30px;
-  }
-
-  .innerContent p {
-      font-size: 22px;
-  }
+.card .large .text {
+  max-width: 300px;
 }
 
-/* Responsive design for smaller laptops (max-width: 950px) */
-@media screen and (max-width: 950px) {
-  .ConnectWrapper {
-      padding: 0vh 7vw 5vh;
-  }
-
-  .contentWrapper {
-      height: 300px;
-  }
-
-  .innerContent {
-      padding: 5% 4%;
-  }
-
-  .innerContent h2 {
-      font-size: 25px;
-  }
-
-  .innerContent p {
-      font-size: 18px;
-  }
-
-  .socialMedia a {
-      font-size: 16px;
-  }
+.card.large .text span {
+  margin-top: .3rem;
+  font-size: 1rem;
 }
 
-/* Responsive design for tablets and smaller screens (max-width: 700px) */
-@media screen and (max-width: 700px) {
-  .contentWrapper {
-      flex-direction: column; /* Stack elements vertically */
-      height: fit-content;
-      align-items: center;
-      width: 100%;
+.card.small {
+  border-radius: 1rem;
+  max-width: 700px;
+}
+
+.card.small .text {
+  width: 75%;
+}
+
+.card.small .text span {
+  margin-top: .3rem;
+  font-size: 1rem;
+}
+
+.subContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: .5rem;
+  justify-content: space-between;
+}
+
+@media (max-width: 1050px) {
+  .card .date {
+    font-size: 23px;
   }
 
-  .innerContent {
-      align-items: center;
-      text-align: center;
-      padding: 5%;
-      gap: 20px;
+  .card .text {
+    font-size: 15px;
   }
 
-  .contentWrapper img {
-      height: auto;
-      width: 100%;
+  .card.large img {
+    height: 360px;
   }
 
-  .socialMedia {
-      flex-wrap: wrap; /* Allow social media links to wrap */
-      justify-content: center;
+  .card img {
+    height: 90px;
   }
 
-  .innerContent p {
-      font-size: 14px;
-      margin: 0;
-      margin-top: .3rem;
+  .subContent {
+    height: 100%;
   }
 }
 
-/* Extra small screen adjustments (max-width: 379px) */
-@media screen and (max-width: 379px) {
-  .ConnectWrapper h1 {
-      font-size: 30px;
+@media screen and (max-width: 880px) {
+  .events {
+    max-height: none;
   }
 
-  .socialMedia a {
-      font-size: 16px;
-      width: 180px; /* Fixed width for links */
+  .innerDiv {
+    flex-direction: column;
   }
 
-  .innerContent p {
-      font-size: 12px;
+  .card.large {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .card.small {
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .events {
+    padding: 0rem 10px;
+  }
+
+  .card.large img {
+    height: auto;
+    width: 100%;
+  }
+
+  .card {
+    padding: 5px 10px;
+  }
+
+  .card .date {
+    font-size: 23px;
+  }
+
+  .card .text strong {
+    font-size: .9rem;
+    margin-bottom: .1rem;
+  }
+
+  .card.large .text span,
+  .card.small .text span {
+    font-size: .75rem;
+    margin-top: .1rem;
+  }
+
+  .card img {
+    height: 70px;
+  }
+}
+
+@media(width<345px){
+  .card .text strong {
+    font-size: .6rem;
+  }
+
+  .card.large .text span,
+  .card.small .text span {
+    font-size: .55rem;
   }
 }
