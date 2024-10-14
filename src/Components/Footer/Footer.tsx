@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css";
-import { Instagram, Youtube, LinkedIn } from "./assets/svg";
+import { Instagram, LinkedIn } from "./assets/svg";
 import { ULearnWhite } from "../../assets/svg/svg";
 import data from "../../../data.json"
 
@@ -36,10 +36,7 @@ const Footer = () => {
                     <Instagram />
                     Instagram
                 </a>
-                <a href={data.youtube}>
-                    <Youtube />
-                    Youtube
-                </a>
+                
                
             </div>
             <div className={styles.line}></div>
