@@ -4,8 +4,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 25px;
-  padding: 5vh 5%;
+  gap: 75px;
+  padding: 7vh 5%;
   width: 100%;
 }
 
@@ -18,7 +18,25 @@
   font-size: 20px;
   color: rgb(66, 66, 66);
   text-align: left;
-  font-size: 1.2rem;
+  flex-grow: 1;
+  gap:85px;
+  padding: 5vh 5%;
+}
+.AboutWrapperContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.AboutWrapperContent img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 900px) {
