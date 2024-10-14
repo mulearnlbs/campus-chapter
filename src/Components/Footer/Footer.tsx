@@ -38,7 +38,7 @@ const Footer = () => {
                 </a>
                 <a href={data.youtube}>
                     <youtube />
-                    Youtube
+                    youtube
                 </a>
                
             </div>
