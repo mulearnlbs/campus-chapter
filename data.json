@@ -2,7 +2,7 @@
     "collegeCode": "LBT",
 
     "college": "LBS INSTITUITE OF TECHNOLOGY FOR WOMEN",
-    "about":"Established in 2022, our Trivandrum µLearn Community Chapter at the LBS Institute of Technology for Women swiftly climbed the ranks, landing at the impressive 23rd position among µLearn chapters in Kerala by 2024. We ignite students' potential through immersive workshop in IoT, Block chain, and much more, sculpting future tech heroes. Crafting a fusion of passion and prowess, carving a pathway for students to conquer and innovate in this ever-growing realm of technology.",
+    "about":"Established in 2022, our Trivandrum µLearn Community Chapter at the LBS Institute of Technology for Women swiftly climbed the ranks, landing at the impressive 4th position among µLearn chapters in Kerala by 2024. We ignite students' potential through immersive workshop in IoT, Block chain, and much more, sculpting future tech heroes. Crafting a fusion of passion and prowess, carving a pathway for students to conquer and innovate in this ever-growing realm of technology.",
 
 
 
@@ -55,7 +55,7 @@
             "month": "Aug",
             "date": "21",
             "head": "AR/VR Workshop- by Fahad P N",
-            "para": "Hands-on workshop on AR/VR lead by Fahad P N, Chief Technology Officer and Co-Founder of SoftServedWeb.",
+            "para": "Hands-on workshop on AR/VR lead by Fahad P N, Chief Technology Officer and Co-Founder of SoftServedWeb, held as a part of fund raising for Wayanad",
             "img": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/7.jpg?raw=true"
         },
 	{
@@ -69,7 +69,7 @@
             "month": "Sep",
             "date": "28",
             "head": "TELEKINESIS-Workshop",
-            "para": "",
+            "para": "Telekinesis workshop held by Abhiram",
             "img": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/11.jpg?raw=true"
         },
 	{
@@ -130,7 +130,31 @@
             },
 	    {
                 "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g12.jpg?raw=true"
-            }
+            },
+	   {
+                "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g15.jpg?raw=true"
+            },
+	    {
+                "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g16.jpg?raw=true"
+            },
+            {
+                "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g17.jpg?raw=true"
+            },
+            {
+                "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g18.jpg?raw=true"
+            },
+	    {
+                "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g19.jpg?raw=true"
+            },
+	    {
+                "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g20.jpg?raw=true"
+            },
+	    {
+                "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g21.jpg?raw=true"
+            },
+	    {
+                "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g22.jpg?raw=true"
+            },
         ]
     },
 
@@ -139,7 +163,7 @@
         "learningCircles": 4,
         "InterestGroups": 4,
         "karmaEarned": 60,
-        "rank": 28
+        "rank": 4
     },
 
     "team": {
@@ -180,7 +204,7 @@
             "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/g10.jpg?raw=true"
         },
 	"operationwing": {
-            "name": "Syama,Arsha D Asok,Sangeetha,Remitha,Aksa",
+            "name": "Syama S Kumar,Arsha D Asok,Sangeetha G S,Remitha U,Aksa Susan Abraham",
             "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom8.jpg?raw=true"
         },
 	"designandcontetteam": {
@@ -188,7 +212,7 @@
             "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom7.jpg?raw=true"
         },
 	"onboardingwing": {
-            "name": "Adithya,Gopika,Adithya Hemand,Grace",
+            "name": "Adithya Ramesh,Gopika R,Grace Elizabeth Jose,Adithya Hemand",
             "image": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/execom4.jpg?raw=true"
         }
         
@@ -204,7 +228,7 @@
 
     "instagram": "https://www.instagram.com/mulearnlbs?igsh=MXN4cGpoaGxhNTE1YQ==",
 
-    "twitter": "",
+    "youtube": "https://youtube.com/@mulearnlbsitw?si=JZZX1lZimD0Q8ZAg",
 
-    "facebook": ""
+    
 }
