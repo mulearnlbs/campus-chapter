@@ -7,14 +7,7 @@
 
 
     "events": [
-        {
-            "month": "Jul",
-            "date": "9",
-            "head": "Tune into Inspiration Station Radio-Aswathy Mahendran",
-            "para": "Aswathy Mahendran,senior Product Support,Tech Advisor at IQVIA shared her experience and insights about ISR.",
-	    "img": "https://github.com/mulearnlbs/campus-chapter/blob/dev/src/1.jpg?raw=true"
-         
-        },
+        
         {
             "month": "Jul",
             "date": "18",
