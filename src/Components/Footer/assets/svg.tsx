@@ -30,7 +30,7 @@ export const Instagram = () => {
     </svg>
   );
 };
-export const youtube = () => {
+export const Youtube = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
