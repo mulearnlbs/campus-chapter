@@ -3,11 +3,9 @@ import data from "../../../data.json";
 
 const Events = () => {
   return (
-    <div className={styles.events}>
+    <div className={styles.EventsWrapper}>
       <h2>Our Event Journey</h2>
       <div className={styles.innerDiv}>
-
-        
         <div className={styles.subContent}>
           {data.events.slice(1).map((event, index) => {
             return (
