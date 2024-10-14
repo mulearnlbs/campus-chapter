@@ -30,7 +30,7 @@ export const Instagram = () => {
     </svg>
   );
 };
-export const Twitter = () => {
+export const youtube = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -46,19 +46,4 @@ export const Twitter = () => {
     </svg>
   );
 };
-export const Facebook = () => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="22"
-      height="22"
-      viewBox="0 0 15 27"
-      fill="none"
-    >
-      <path
-        d="M9.50641 15.4568H12.7678L14.0723 10.2386H9.50641V7.62956C9.50641 6.28588 9.50641 5.02048 12.1155 5.02048H14.0723V0.637226C13.647 0.58113 12.0411 0.45459 10.3452 0.45459C6.80341 0.45459 4.28825 2.61621 4.28825 6.58593V10.2386H0.374634V15.4568H4.28825V26.5454H9.50641V15.4568Z"
-        fill="#EBD7FF"
-      />
-    </svg>
-  );
-};
+
